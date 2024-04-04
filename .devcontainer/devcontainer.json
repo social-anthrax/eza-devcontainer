@@ -1,25 +1,11 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
-    "customizations": {
-        "vscode": {
-            "settings": {
-                "json.schemas": [
-                    {
-                        "fileMatch": [
-                            "*/devcontainer-feature.json"
-                        ],
-                        "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json"
-                    }
-                ]
-            },
-            "extensions": [
-                "mads-hartmann.bash-ide-vscode"
-            ]
-        }
-    },
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-    },
-    "remoteUser": "node",
-    "updateContentCommand": "npm install -g @devcontainers/cli"
+	"name": "Ubuntu",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "ubuntu:latest",
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/social-anthrax/eza-devcontainer/eza:latest": {}
+	}
 }

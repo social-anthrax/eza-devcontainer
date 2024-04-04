@@ -1,5 +1,3 @@
-
-
 clean_download() {
     # The purpose of this function is to download a file with minimal impact on container layer size
     # this means if no valid downloader is found (curl or wget) then we install a downloader (currently wget) in a 
@@ -168,5 +166,3 @@ ensure_nanolayer() {
     export ${variable_name}=$__nanolayer_location
 
 }
-
-
