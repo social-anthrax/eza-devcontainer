@@ -1,16 +1,13 @@
 
 # eza (via Github Releases) (eza)
 
-eza is a modern, maintained replacement for the venerable file-listing command-line program ls that ships with Unix and Linux operating systems, giving it more features and better defaults.
-It uses colours to distinguish file types and metadata. It knows about symlinks, extended attributes, and Git. 
+eza is a modern, maintained replacement for ls.
 
-Source: [eza-community/eza](https://github.com/eza-community/eza)
-
-## Example DevContainer Usage
+## Example Usage
 
 ```json
 "features": {
-    "social-anthrax/eza_devcontainer/eza:1": {}
+    "ghcr.io/social-anthrax/eza-devcontainer/eza:0": {}
 }
 ```
 
@@ -21,3 +18,7 @@ Source: [eza-community/eza](https://github.com/eza-community/eza)
 | version | Select the version to install. | string | latest |
 
 
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/social-anthrax/eza-devcontainer/blob/main/src/eza/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
